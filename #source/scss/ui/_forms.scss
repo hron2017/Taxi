@@ -1,0 +1,80 @@
+//<FORM>====================================================================================================
+.form {
+  padding: 18px 22px 18px 34px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__title {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 34px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 26px 0px 26px 26px;
+    letter-spacing: 1.7px;
+  }
+  &__input {
+    flex: 1 1 45%;
+    border-bottom: 3px solid #e4e4e4;
+    margin-bottom: 26px;
+    &:nth-child(odd) {
+      margin-right: 20px;
+    }
+    &:nth-child(even) {
+      input {
+        color: #4b4b4b;
+      }
+    }
+  }
+
+  &__input-width {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  &__buttom {
+    flex: 1 1 100%;
+  }
+
+  &__btn {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+
+    &:hover {
+      background-color: $acent;
+      color: #000;
+    }
+  }
+}
+//</FORM>====================================================================================================
+
+//<INPUT>====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input {
+  border-radius: 0 !important;
+  width: 90%;
+  display: block;
+  padding: 15px 0px;
+  color: #000000;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 700;
+  &.focus {
+  }
+  &.err {
+    border-bottom: 1px solid red;
+  }
+}
+textarea.input {
+  resize: none;
+  padding: 0px 0px;
+}
+//</INPUT>====================================================================================================

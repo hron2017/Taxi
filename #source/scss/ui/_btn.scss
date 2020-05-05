@@ -1,0 +1,46 @@
+//<BUTTONS>====================================================================================================
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 0px;
+	color: #000;
+	font-family: "Bebas Neue Bold";
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 166px;
+	height: 50px;
+	background-color: $acent;
+	border-radius: 7px;
+	@include anim(0.3s, 0s);
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
+	&:hover {
+		animation: pulsate 1.2s linear infinite;
+	}
+	&.fw {
+		width: 100%;
+	}
+}
+
+.section-about__btn {
+	background-color: #000000;
+	color: #fff;
+
+	@media (max-width: $md3+px) {
+		margin-bottom: 30px;
+	}
+}
+@-webkit-keyframes pulsate {
+	50% {
+		color: #fff;
+		text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff;
+	}
+}
+@keyframes pulsate {
+	50% {
+		color: #fff;
+		text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff;
+	}
+}
+//</BUTTONS>====================================================================================================

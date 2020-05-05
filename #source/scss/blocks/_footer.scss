@@ -1,0 +1,182 @@
+.footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: url(../img/footer-bg.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	@media (min-width: $md2+px) {
+		padding-top: 80px;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		opacity: 0.93;
+	}
+	&__item {
+		position: relative;
+		z-index: 1;
+
+		@media (max-width: $md2+px) {
+			margin-bottom: 40px;
+		}
+		@media (min-width: $md2+px) {
+			margin: 0 15px;
+		}
+	}
+	&__item-title {
+		font-family: "Lato";
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 42px;
+		position: relative;
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: -18px;
+			left: 0;
+			height: 8px;
+			width: 100%;
+			background-color: $acent;
+		}
+		@media (min-width: $md2+px) {
+			margin-bottom: 92px;
+
+			&:after {
+				content: "";
+				bottom: -38px;
+			}
+		}
+	}
+	&__item-text {
+		line-height: 1.4;
+		margin-bottom: 19px;
+
+		@media (min-width: $md2+px) {
+			margin-bottom: 39px;
+		}
+	}
+	&__item-social-list {
+		li {
+			display: inline-block;
+			margin-right: 20px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&__item-social-link {
+		color: $acent;
+		font-size: 20px;
+	}
+	&__item-contact-list {
+		li {
+			padding-left: 43px;
+			margin-bottom: 14px;
+			position: relative;
+
+			@media (min-width: $md3+px) {
+				margin-bottom: 22px;
+			}
+		}
+	}
+
+	&__item-contact-link {
+		color: #ffffff;
+		font-family: "Times New Roman";
+		font-size: 18px;
+		font-weight: 400;
+
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 20px;
+			color: #ffffff;
+			font-family: "FontAwesome";
+		}
+	}
+
+	&__item-donload {
+		li {
+			margin-bottom: 14px;
+			position: relative;
+
+			@media (min-width: $md3+px) {
+				margin-bottom: 22px;
+			}
+		}
+		&-link {
+			color: $acent;
+			font-family: Lato;
+			font-size: 20px;
+			font-weight: 400;
+			position: relative;
+			display: flex;
+			max-width: 60%;
+
+			@media (min-width: $md4+px) {
+				max-width: 50%;
+			}
+			&:after {
+				position: absolute;
+				top: 0;
+				right: 0;
+				font-size: 20px;
+				color: #ffffff;
+				font-family: "FontAwesome";
+			}
+		}
+	}
+
+	&__copy {
+		position: relative;
+		z-index: 1;
+		color: #999;
+		background-color: #000;
+		font-family: "Times New Roman PSMT";
+		font-size: 14px;
+		padding: 22px 0px 12px 0px;
+		text-align: center;
+		letter-spacing: 0.7px;
+	}
+}	
+.link-android {
+	&:after {
+		content: "\f17b";
+	}
+}
+.link-ios {
+	&:after {
+		content: "\f179";
+	}
+}
+.link-location {
+	&:after {
+		content: "\f3c5";
+	}
+}
+.link-tel {
+	&:after {
+		content: "\f3cd";
+	}
+}
+.link-email {
+	&:after {
+		content: "\f0e0";
+	}
+}
+.link-url {
+	&:after {
+		content: "\f245";
+	}
+}
