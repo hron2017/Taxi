@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 @font-face {
-	font-family: "Bebas Neue Bold";
-	src: url("../fonts/BebasNeueBold.woff2") format("woff2"), url("../fonts/BebasNeueBold.woff") format("woff");
-	font-weight: bold;
-	font-style: normal;
+   font-family: "Bebas Neue Bold";
+   src: url("../fonts/BebasNeueBold.woff2") format("woff2"), url("../fonts/BebasNeueBold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
 }
 
 @font-face {
-	font-family: "Times New Roman";
-	src: url("../fonts/TimesNewRomanPSMT.woff2") format("woff2"), url("../fonts/TimesNewRomanPSMT.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
+   font-family: "Times New Roman";
+   src: url("../fonts/TimesNewRomanPSMT.woff2") format("woff2"), url("../fonts/TimesNewRomanPSMT.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
 }
