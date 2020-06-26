@@ -722,6 +722,9 @@ font-family: "FontAwesome";
   .intro-section__image img {
     max-width: 100%; }
 
+.webp .intro-section {
+  background-image: url(../img/intro-bg.webp); }
+
 /*         ABOUT             */
 .section-about {
   padding-top: 80px;
@@ -855,6 +858,9 @@ font-family: "FontAwesome";
 
 /*        // Tariffs             */
 /*         advantages             */
+.webp .advantages {
+  background-image: url(../img/advantages__bg.webp); }
+
 .advantages {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -970,6 +976,9 @@ font-family: "FontAwesome";
     .section-reviews {
       padding-top: 110px;
       padding-bottom: 60px; } }
+
+.webp .section-reviews {
+  background-image: url(../img/reviews__bg.webp); }
 
 .reviews-slider {
   min-width: 0; }

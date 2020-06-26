@@ -1,432 +1,490 @@
 .block-head {
-	margin-bottom: 24px;
-	text-align: center;
+   margin-bottom: 24px;
+   text-align: center;
 
-	&__heading {
-		color: $acent;
-		font-size: 30px;
-		font-weight: 800;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-	@media (min-width: $md4+px) {
-		font-size: 36px;
-	}
+   &__heading {
+      color: $acent;
+      font-size: 30px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+   }
 
-	&__tel {
-		color: #ffffff;
-		font-size: 38px;
-		font-weight: 800;
-		text-transform: uppercase;
-		@media (min-width: $md4+px) {
-			font-size: 68px;
-		}
-		@media (min-width: $md3+px) {
-			font-size: 72px;
-		}
-	}
+   @media (min-width: $md4+px) {
+      font-size: 36px;
+   }
 
-	&__subtitle {
-		color: #ffc61a;
-		font-family: "Lato";
-		font-size: 24px;
-		font-weight: 800;
-		text-transform: uppercase;
+   &__tel {
+      color: #ffffff;
+      font-size: 38px;
+      font-weight: 800;
+      text-transform: uppercase;
 
-		@media (min-width: $md2+px) {
-			font-size: 35px;
-		}
-	}
-	&__title {
-		color: #000000;
-		font-family: "Lato";
-		font-size: 28px;
-		font-weight: 800;
-		text-transform: uppercase;
+      @media (min-width: $md4+px) {
+         font-size: 68px;
+      }
 
-		@media (min-width: $md2+px) {
-			font-size: 44px;
-		}
-	}
+      @media (min-width: $md3+px) {
+         font-size: 72px;
+      }
+   }
+
+   &__subtitle {
+      color: #ffc61a;
+      font-family: "Lato";
+      font-size: 24px;
+      font-weight: 800;
+      text-transform: uppercase;
+
+      @media (min-width: $md2+px) {
+         font-size: 35px;
+      }
+   }
+
+   &__title {
+      color: #000000;
+      font-family: "Lato";
+      font-size: 28px;
+      font-weight: 800;
+      text-transform: uppercase;
+
+      @media (min-width: $md2+px) {
+         font-size: 44px;
+      }
+   }
 }
+
 /**/
 
 .intro-section {
-	max-height: 737px;
-	background-image: url(../img/intro-bg.png);
-	background-position: center;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-	padding-top: 150px;
-	&__head {
-		margin-bottom: 109px;
-		padding-top: 0;
-	}
+   max-height: 737px;
+   background-image: url(../img/intro-bg.png);
+   background-position: center;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   padding-top: 150px;
 
-	&__image {
-		@media (max-width: $md4+px) {
-			margin-bottom: -35px;
-		}
-		img {
-			max-width: 100%;
-		}
-	}
+   &__head {
+      margin-bottom: 109px;
+      padding-top: 0;
+   }
+
+   &__image {
+      @media (max-width: $md4+px) {
+         margin-bottom: -35px;
+      }
+
+      img {
+         max-width: 100%;
+      }
+   }
+}
+
+.webp .intro-section {
+   background-image: url(../img/intro-bg.webp);
 }
 
 /*         ABOUT             */
 .section-about {
-	padding-top: 80px;
-	padding-bottom: 40px;
-	background-color: $acent;
+   padding-top: 80px;
+   padding-bottom: 40px;
+   background-color: $acent;
 
-	@media (min-width: $md2+px) {
-		padding-top: 150px;
-		padding-bottom: 80px;
-	}
+   @media (min-width: $md2+px) {
+      padding-top: 150px;
+      padding-bottom: 80px;
+   }
 
-	&__head {
-		text-align: left;
-		padding-top: 0;
-	}
-	&__subtitle {
-		color: #000;
-		margin-bottom: 10px;
-	}
-	&__title {
-		@media (min-width: $md2+px) {
-			font-size: 50px;
-		}
-	}
-	&__text {
-		text-align: justify;
-		margin-bottom: 30px;
+   &__head {
+      text-align: left;
+      padding-top: 0;
+   }
 
-		@media (min-width: $md2+px) {
-			margin-bottom: 60px;
-		}
-	}
-	&__form {
-		box-shadow: 0 0 43px rgba(0, 0, 0, 0.07);
-		background-color: #fff;
-	}
+   &__subtitle {
+      color: #000;
+      margin-bottom: 10px;
+   }
+
+   &__title {
+      @media (min-width: $md2+px) {
+         font-size: 50px;
+      }
+   }
+
+   &__text {
+      text-align: justify;
+      margin-bottom: 30px;
+
+      @media (min-width: $md2+px) {
+         margin-bottom: 60px;
+      }
+   }
+
+   &__form {
+      box-shadow: 0 0 43px rgba(0, 0, 0, 0.07);
+      background-color: #fff;
+   }
 }
+
 /*         /ABOUT             */
 
 /*         Tariffs             */
 .section-tariffs {
-	margin-bottom: 34px;
-	padding-top: 65px;
-	@media (min-width: $md2+px) {
-		margin-bottom: 73px;
-	}
+   margin-bottom: 34px;
+   padding-top: 65px;
+
+   @media (min-width: $md2+px) {
+      margin-bottom: 73px;
+   }
 }
+
 .tariffs-head {
-	margin-bottom: 128px;
+   margin-bottom: 128px;
 }
+
 .tariffs-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #f5f4f2;
-	text-align: center;
-	cursor: pointer;
-	padding-bottom: 25px;
-	margin-bottom: 105px;
-	@include anim(0.4s, 0s);
-	position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #f5f4f2;
+   text-align: center;
+   cursor: pointer;
+   padding-bottom: 25px;
+   margin-bottom: 105px;
+   @include anim(0.4s, 0s);
+   position: relative;
 
-	&:hover {
-		background-color: $acent;
+   &:hover {
+      background-color: $acent;
 
-		.btn {
-			background-color: #000000;
-			color: #fff;
-		}
-		.tariffs-item__price {
-			color: #000000;
-		}
-		.tariffs-item__favorite {
-			opacity: 1;
-			visibility: visible;
-		}
-	}
-	&__image {
-		margin-top: -85px;
-		margin-bottom: 12px;
-		@media (min-width: $md3+px) {
-			margin-bottom: 30px;
-		}
-		img {
-			max-width: 100%;
-		}
-	}
+      .btn {
+         background-color: #000000;
+         color: #fff;
+      }
 
-	&__name {
-		color: #000000;
-		font-family: "Lato";
-		font-size: 30px;
-		font-weight: 800;
-		text-transform: uppercase;
-		margin-bottom: 11px;
+      .tariffs-item__price {
+         color: #000000;
+      }
 
-		@media (min-width: $md3+px) {
-			margin-bottom: 31px;
-		}
-	}
+      .tariffs-item__favorite {
+         opacity: 1;
+         visibility: visible;
+      }
+   }
 
-	&__text {
-		padding: 0 10px;
+   &__image {
+      margin-top: -85px;
+      margin-bottom: 12px;
 
-		@media (min-width: $md3+px) {
-			padding: 0 35px;
-		}
-	}
+      @media (min-width: $md3+px) {
+         margin-bottom: 30px;
+      }
 
-	&__price {
-		margin: 15px 0;
-		color: #ffc61a;
-		font-family: "Lato";
-		font-size: 44px;
-		font-weight: 700;
-		text-transform: uppercase;
-		transition: all 0.5s;
-		@media (min-width: $md3+px) {
-			margin: 35px 0;
-		}
-	}
+      img {
+         max-width: 100%;
+      }
+   }
 
-	&__favorite {
-		opacity: 0;
-		visibility: hidden;
-		width: 74px;
-		height: 74px;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		border-bottom: 74px solid #1b1b1b;
-		border-left: 74px solid transparent;
-		@include anim(0.3s, 0s);
-		i {
-			position: absolute;
-			top: 35px;
-			left: -35px;
-			color: $acent;
-			font-size: 26px;
-		}
-	}
+   &__name {
+      color: #000000;
+      font-family: "Lato";
+      font-size: 30px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 11px;
+
+      @media (min-width: $md3+px) {
+         margin-bottom: 31px;
+      }
+   }
+
+   &__text {
+      padding: 0 10px;
+
+      @media (min-width: $md3+px) {
+         padding: 0 35px;
+      }
+   }
+
+   &__price {
+      margin: 15px 0;
+      color: #ffc61a;
+      font-family: "Lato";
+      font-size: 44px;
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: all 0.5s;
+
+      @media (min-width: $md3+px) {
+         margin: 35px 0;
+      }
+   }
+
+   &__favorite {
+      opacity: 0;
+      visibility: hidden;
+      width: 74px;
+      height: 74px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-bottom: 74px solid #1b1b1b;
+      border-left: 74px solid transparent;
+      @include anim(0.3s, 0s);
+
+      i {
+         position: absolute;
+         top: 35px;
+         left: -35px;
+         color: $acent;
+         font-size: 26px;
+      }
+   }
 }
+
 /*        // Tariffs             */
 
 /*         advantages             */
-.advantages {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-image: url(../img/advantages__bg.png);
-	background-position: center;
-	background-size: cover;
-	position: relative;
-
-	@media (max-width: $md2+px) {
-		text-align: center;
-	}
-	@media (min-width: $md3+px) {
-		padding-top: 81px;
-		padding-bottom: 76px;
-	}
-	&-head {
-		margin-bottom: 64px;
-
-		@media (min-width: $md2+px) {
-			margin-bottom: 104px;
-		}
-	}
-	&-head__title {
-		color: #fff;
-	}
-	&__item {
-		margin-bottom: 35px;
-
-		@media (min-width: $md2+px) {
-			margin-bottom: 84px;
-		}
-	}
-
-	&__item-icon {
-		width: 63px;
-		height: 63px;
-		border-radius: 50%;
-		line-height: 63px;
-		font-size: 24px;
-		background-color: $acent;
-		text-align: center;
-		color: #000;
-
-		@media (max-width: $md2+px) {
-			margin: 0 auto;
-			margin-bottom: 25px;
-		}
-
-		@media (min-width: 1200px) {
-			width: 81px;
-			height: 81px;
-			line-height: 81px;
-			font-size: 32px;
-		}
-	}
-
-	&__item-title {
-		color: $acent;
-		font-family: "Lato";
-		font-size: 25px;
-		font-weight: 800;
-		text-transform: uppercase;
-		margin-bottom: 9px;
-
-		@media (min-width: $md2+px) {
-			margin-bottom: 24px;
-		}
-	}
-
-	&__item-text {
-		color: #ffffff;
-	}
-	&__bottom {
-		text-align: center;
-	}
-	&__btn {
-		align-self: center;
-	}
+.webp .advantages {
+   background-image: url(../img/advantages__bg.webp);
 }
+
+.advantages {
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background-image: url(../img/advantages__bg.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+
+   @media (max-width: $md2+px) {
+      text-align: center;
+   }
+
+   @media (min-width: $md3+px) {
+      padding-top: 81px;
+      padding-bottom: 76px;
+   }
+
+   &-head {
+      margin-bottom: 64px;
+
+      @media (min-width: $md2+px) {
+         margin-bottom: 104px;
+      }
+   }
+
+   &-head__title {
+      color: #fff;
+   }
+
+   &__item {
+      margin-bottom: 35px;
+
+      @media (min-width: $md2+px) {
+         margin-bottom: 84px;
+      }
+   }
+
+   &__item-icon {
+      width: 63px;
+      height: 63px;
+      border-radius: 50%;
+      line-height: 63px;
+      font-size: 24px;
+      background-color: $acent;
+      text-align: center;
+      color: #000;
+
+      @media (max-width: $md2+px) {
+         margin: 0 auto;
+         margin-bottom: 25px;
+      }
+
+      @media (min-width: 1200px) {
+         width: 81px;
+         height: 81px;
+         line-height: 81px;
+         font-size: 32px;
+      }
+   }
+
+   &__item-title {
+      color: $acent;
+      font-family: "Lato";
+      font-size: 25px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 9px;
+
+      @media (min-width: $md2+px) {
+         margin-bottom: 24px;
+      }
+   }
+
+   &__item-text {
+      color: #ffffff;
+   }
+
+   &__bottom {
+      text-align: center;
+   }
+
+   &__btn {
+      align-self: center;
+   }
+}
+
 /*        // Tariffs             */
 
 /*         download             */
 .section-download {
-	padding-top: 65px;
+   padding-top: 65px;
 }
+
 .download {
-	&__content {
-		@media (max-width: $md2+px) {
-			text-align: center;
-			padding-top: 25px;
-		}
-	}
+   &__content {
+      @media (max-width: $md2+px) {
+         text-align: center;
+         padding-top: 25px;
+      }
+   }
 
-	&__heading {
-		color: #000000;
-		font-family: "Lato";
-		font-size: 25px;
-		font-weight: 700;
-		margin-bottom: 18px;
+   &__heading {
+      color: #000000;
+      font-family: "Lato";
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 18px;
 
-		@media (min-width: $md2+px) {
-			margin-bottom: 28px;
-		}
-	}
+      @media (min-width: $md2+px) {
+         margin-bottom: 28px;
+      }
+   }
 
-	&__text {
-		margin-bottom: 37px;
+   &__text {
+      margin-bottom: 37px;
 
-		@media (min-width: $md2+px) {
-			margin-bottom: 67px;
-		}
-	}
+      @media (min-width: $md2+px) {
+         margin-bottom: 67px;
+      }
+   }
 
-	&__bottom {
-	}
+   &__bottom {}
 
-	&__image {
-	}
-	&__link {
-		@media (max-width: $md2+px) {
-			margin-bottom: 24px;
-			text-align: center;
-		}
-		img {
-			max-width: 100%;
-		}
-	}
+   &__image {}
+
+   &__link {
+      @media (max-width: $md2+px) {
+         margin-bottom: 24px;
+         text-align: center;
+      }
+
+      img {
+         max-width: 100%;
+      }
+   }
 }
+
 .download-head {
-	@media (min-width: $md3+px) {
-		margin-bottom: 41px;
-	}
+   @media (min-width: $md3+px) {
+      margin-bottom: 41px;
+   }
 }
+
 /*        // download             */
 
 /*        reviews             */
 .section-reviews {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-image: url(../img/reviews__bg.png);
-	background-position: center;
-	background-size: cover;
-	position: relative;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background-image: url(../img/reviews__bg.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
 
-	@media (min-width: $md2+px) {
-		padding-top: 110px;
-		padding-bottom: 60px;
-	}
+   @media (min-width: $md2+px) {
+      padding-top: 110px;
+      padding-bottom: 60px;
+   }
 }
+
+.webp .section-reviews {
+   background-image: url(../img/reviews__bg.webp);
+}
+
 .reviews {
-	&-slider {
-		min-width: 0;
-	}
-	&-head {
-		margin-bottom: 55px;
-		@media (min-width: $md2+px) {
-			margin-bottom: 105px;
-		}
-	}
-	&__item {
-		background-color: #040707;
-		padding: 24px 20px 20px 24px;
-		border-radius: 30px;
+   &-slider {
+      min-width: 0;
+   }
 
-		@media (max-width: $md2+px) {
-			margin-bottom: 30px;
-		}
-		@media (min-width: $md2+px) {
-			padding: 42px 69px 42px 53px;
-		}
-	}
-	&__item-coment {
-		color: #ffffff;
-		margin-bottom: 24px;
-	}
-	&__item-avtor {
-		display: flex;
-	}
-	&__item-avtor-img {
-		border-radius: 50%;
-		img {
-			border-radius: 50%;
-		}
-	}
-	&__item-avtor-name {
-		padding-top: 10px;
-		color: $acent;
-		font-family: "Lato";
-		font-size: 16px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-left: 15px;
-		@media (min-width: $md2+px) {
-			font-size: 24px;
-		}
-	}
+   &-head {
+      margin-bottom: 55px;
+
+      @media (min-width: $md2+px) {
+         margin-bottom: 105px;
+      }
+   }
+
+   &__item {
+      background-color: #040707;
+      padding: 24px 20px 20px 24px;
+      border-radius: 30px;
+
+      @media (max-width: $md2+px) {
+         margin-bottom: 30px;
+      }
+
+      @media (min-width: $md2+px) {
+         padding: 42px 69px 42px 53px;
+      }
+   }
+
+   &__item-coment {
+      color: #ffffff;
+      margin-bottom: 24px;
+   }
+
+   &__item-avtor {
+      display: flex;
+   }
+
+   &__item-avtor-img {
+      border-radius: 50%;
+
+      img {
+         border-radius: 50%;
+      }
+   }
+
+   &__item-avtor-name {
+      padding-top: 10px;
+      color: $acent;
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 15px;
+
+      @media (min-width: $md2+px) {
+         font-size: 24px;
+      }
+   }
 }
+
 /*       // reviews             */
 
 /*        hours             */
 .hours-section {
-	background-color: $acent;
-	padding-top: 73px;
-	padding-bottom: 91px;
+   background-color: $acent;
+   padding-top: 73px;
+   padding-bottom: 91px;
 
-	.block-head__heading,
-	.block-head__tel {
-		color: #000;
-	}
+   .block-head__heading,
+   .block-head__tel {
+      color: #000;
+   }
 }
+
 /*       // hours             */
